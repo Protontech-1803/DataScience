@@ -5,7 +5,7 @@ In this POC, a movie rating data set is analyzed using Spark. As a result of ana
 
 **Below are the steps to load and filter the dataset with respect to a movie rating:**
 
-   **_Note:_**  *The Movie is Rated between the range [1-5] stars in the dataset.*
+    **_Note:_**  *The Movie is Rated between the range [1-5] stars in the dataset.*
 
   1. Consider a Movie Rating Data Set in the file. For example, ml-100k.zip.
 
