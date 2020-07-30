@@ -1,4 +1,4 @@
-# Spark Streaming with Movie Dataset
+# Processing Sample Movie Dataset using Spark
 
 
 In this POC, a movie rating data set is analyzed using Spark. As a result of analysis, the count of star ratings that are given by various users for a given movie is displayed.
