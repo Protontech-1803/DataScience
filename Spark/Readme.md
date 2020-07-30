@@ -58,7 +58,7 @@ In this POC, a movie rating data set is analyzed using Spark. As a result of ana
 
   
   
-      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/RatingsCounter.png)
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Spark/RatingsCounter.png)
    
   4.	The output shows the Star ratings number, given by various users for the movie.
-     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/OutPut.png)
+     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Spark/OutPut.png)
