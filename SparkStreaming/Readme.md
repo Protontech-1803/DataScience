@@ -13,7 +13,7 @@ In this POC, a movie rating data set is analyzed using Spark. As a result of ana
 
   3.	Launch Eclipse IDE and create a new Spark Scala Project. Add the below code in the IDE, where the **countby** operation gives the count of star rating given by the users for a given movie data set.
   
-     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/RatingsCounter.png)
+   ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/RatingsCounter.png)
    
   4.	The output shows the Star ratings number, given by various users for the movie.
     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/OutPut.png)
