@@ -8,12 +8,12 @@ In this POC, Data is processed using Spark 3.0 from R program. Using Sparklyr an
 4.	Launch R Studio and install the sparklyr package along with its dependencies.
 5.	Launch the Spark-shell in a Terminal, and verify the connectivity.
 
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/spark_confirmation.png)
  
 
 6.	Prepare a Sample Data in a CSV file, Further load data from this file using SparkContext.
 
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+     ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/SampleData.png)
  
 
 7.	Run the below steps in R Studio one by one, which is used to connect to Spark, Create SparkContext, Load the CSV and process the CSV in Spark.
@@ -29,9 +29,10 @@ In this POC, Data is processed using Spark 3.0 from R program. Using Sparklyr an
         filter(df, price<70000)
         select(filter(df,price<70000), street)
 
-
-
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+   
+ 8. The output is the processed data as shown below.
+ 
+       ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/rstudioOutput.png)
  
 
 
