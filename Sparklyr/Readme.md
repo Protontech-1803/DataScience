@@ -5,23 +5,23 @@ In this POC, Data is processed using Spark 3.0 from R program. Using Sparklyr an
 
 1.	Install and Configure R, Rstudio and RTools in your local machine.
 
-2.	Install and Configure Spark in your local machine along with Winutils for Hadoop.
+2.	Install and Configure Spark in your local machine along with **Winutils** for Hadoop.
 
 3.	Configure the Respective Environment Home Variables and update the PATH.
 
-4.	Launch R Studio and install the sparklyr package along with its dependencies.
+4.	Launch R Studio and install the **sparklyr** package along with its dependencies.
 
-5.	Launch the Spark-shell in a Terminal, and verify the connectivity.
+5.	Launch the **Spark-shell** in a Terminal, and verify the connectivity.
 
-     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Sparklyr/spark_confirmation.png)
+     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Sparklyr/spark_Confirmation.png)
  
 
-6.	Prepare a Sample Data in a CSV file, Further load data from this file using SparkContext.
+6.	Prepare a Sample Data in a CSV file, Further load data from this file using **SparkContext**.
 
      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Sparklyr/SampleData.png)
  
 
-7.	Run the below steps in R Studio one by one, which is used to connect to Spark, Create SparkContext, Load the CSV and process the CSV in Spark.
+7.	Run the below steps in R Studio one by one, which is used to connect to Spark, Create **SparkContext**, Load the CSV and process the CSV in Spark.
 
         library(sparklyr)
         library(dplyr)
