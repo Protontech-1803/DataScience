@@ -1,5 +1,7 @@
 # Implementation of CycleGAN using TensorFlow
 This POC trains a model to translate from images from one form to another. For example, horses to zebra using CycleGAN Algorithm. The POC uses a method that can capture the characteristics of one image domain and figure out how these characteristics could be translated into another image domain. The following are steps to implement the same.
+
+Note: [Code used in the POC](https://github.com/Protontech-1803/DataScience/blob/master/CycleGAN/CycleGAN_Code)
 1.	Load and prepare the datasets, Split the data into train and test pair to simulate the model as shown below
 
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/CycleGAN/load_dataset.jpg)
