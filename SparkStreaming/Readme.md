@@ -2,6 +2,7 @@
 
 In this POC Streaming job (Spark Application) will run for every 10 seconds and it will do the wordcount on the data it has received in those 10 seconds from the Kafka Topic. By sending a message from the producer console, the Spark Application will do the word count instantly and return the results. 
 
+
 **The Following are the Implementation Steps.**
 
 1.	Install and Configure Apache Zookeeper 3.6.1 on windows OS-based Machine.
@@ -22,7 +23,7 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
       
   
   
-6.	Create a Topic called wordcountspark in Apache Kafka by running the below command.
+6.	Create a Topic called **wordcountspark** in Apache Kafka by running the below command.
 
 
         kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic wordcountspark
@@ -32,7 +33,7 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
       
  
 
-7.	Use a producer console for sending messages continuously to the topic workcountspark using the below command.
+7.	Use a producer console for sending messages continuously to the topic **workcountspark** using the below command.
 
 
         kafka-console-producer.bat --broker-list localhost:9092 --topic wordcountspark
@@ -42,7 +43,7 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
       
 
  
-8.	Create a Work Count Scala Program with Spark Streaming the Kafka topic using the below code in Eclipse IDE.
+8.	Create a **Work Count Scala Program** with Spark Streaming the Kafka topic using the below code in Eclipse IDE.
 
 
             package com.test
@@ -69,7 +70,7 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/WordCountSpark_Program.png)
 
 
-9.	Run the Spark Application in the IDE, and enter some lines of text in the producer command prompt. you will see the output of the application execution, with the wordcount output of the input text in the producer command prompt.
+9.	Run the Spark Application in the IDE, and enter some lines of text in the producer command prompt. you will see the output of the application execution, with the **wordcount output** of the input text in the producer command prompt.
 
 
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/output.png)
