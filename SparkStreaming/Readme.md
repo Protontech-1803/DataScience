@@ -14,25 +14,37 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
 
 5.	Run zkserver command to start the apache zookeeper, followed by this start Apache Kafka by running the below command.
 
+
+
        .\bin\windows\kafka-server-start.bat .\config\server.properties
+       
  
  
-  ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/Start_Zookeeper.png)
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/Start_Zookeeper.png) 
+      
+  
   
 6.	Create a Topic called wordcountspark in Apache Kafka by running the below command.
 
-       kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic wordcountspark
 
-![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/WordCountSpark.png)
+       kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic wordcountspark
+              
+
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/WordCountSpark.png)
+      
  
 
 7.	Use a producer console for sending messages continuously to the topic workcountspark using the below command.
 
        kafka-console-producer.bat --broker-list localhost:9092 --topic wordcountspark
+       
 
-![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/Message_WordCountSpark.png)
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/Message_WordCountSpark.png)
+      
+
  
 8.	Create a Work Count Scala Program with Spark Streaming the Kafka topic using the below code in Eclipse IDE.
+
 
        package com.test
        import org.apache.spark.SparkConf
@@ -55,12 +67,14 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
        }
 
 
-![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/WordCountSpark_Program.png)
+
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/WordCountSpark_Program.png)
 
 
 9.	Run the Spark Application in the IDE, and enter some lines of text in the producer command prompt. you will see the output of the application execution, with the wordcount output of the input text in the producer command prompt.
 
-![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/output.png)
+
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/output.png)
  
  
  
