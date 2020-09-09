@@ -15,7 +15,7 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
 5.	Run zkserver command to start the apache zookeeper, followed by this start Apache Kafka by running the below command.
 
 
-        .\bin\windows\kafka-server-start.bat .\config\server.properties
+       .\bin\windows\kafka-server-start.bat .\config\server.properties
        
   
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/Start_Zookeeper.png) 
@@ -45,7 +45,7 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
 8.	Create a Work Count Scala Program with Spark Streaming the Kafka topic using the below code in Eclipse IDE.
 
 
-              package com.test
+             package com.test
               import org.apache.spark.SparkConf
               import org.apache.spark.streaming.StreamingContext
               import org.apache.spark.streaming.Seconds
