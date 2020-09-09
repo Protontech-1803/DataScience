@@ -73,7 +73,7 @@ In this POC Streaming job (Spark Application) will run for every 10 seconds and 
 9.	Run the Spark Application in the IDE, and enter some lines of text in the producer command prompt. you will see the output of the application execution, with the **wordcount output** of the input text in the producer command prompt.
 
 
-      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/output.png)
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/SparkStreaming/SparkStreamingPNG/Output_SparkStreaming.png)
  
  
  
