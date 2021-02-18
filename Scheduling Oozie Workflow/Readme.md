@@ -8,7 +8,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
 
 1.	Create Sqoop workflow file using vi editor in HDFS (cloudera) as shown below.
 
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/sqoopworkflow.png)
    
  
 2.	Copy the below code and paste it in the Vi Editor and save the file.
@@ -54,7 +54,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
 
 3.	Create job.properties file using vi editor in HDFS (cloudera) as shown below.
    
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/job-properties.png)
    
  
 4.	Copy the below code and paste it in the Vi Editor and save the file.
@@ -77,7 +77,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
 
 5.	Create Coordinator file using vi editor in HDFS (cloudera) as shown below.
    
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/coordinator-file.png)
     
  
 6.	Copy the below code and paste it in the Vi Editor and save the file.
@@ -96,42 +96,42 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
 
 7.	Execute the below shown command to run the Oozie workflow for Sqoop.
    
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/submitWorkflow.png)
    
  
 8.	On successful submission of the job to run, a workflow job ID will be displayed as shown below. 
    
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/JobID.png)
    
  
 9.	Execute the below shown command with the Workflow ID in the terminal to view the status of the respective job.
 
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/Job-Info.png)
    
  
-10.	Open HUE UI, Ooozie dashboard to verify the status of the Workflow.
+10. Open HUE UI, Ooozie dashboard to verify the status of the Workflow.
     
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/HUE-OozieDashboard.png)
     
  
-11.	In HUE UI, Ooozie dashboard to verify the status of Jobs in Coordinators panel.
+11. In HUE UI, Ooozie dashboard to verify the status of Jobs in Coordinators panel.
    
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/HUE-CoordinatorsPanel.png)
    
  
 12.	On successful execution verify the file imported according to the workflow.
     
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/HUE-fileImported.png)
     
  
 13.	Open the HUE UI File Browser and check the target directory existence as shown below.
 Target directory: /user/root /oozie_wflow.
 
-   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+   ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/HUE-targetDirectory.png)
  
 14.	On successful execution, verify the content of the file is successfully imported to HDFS.
     
-    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/output2.png)
+    ![Alt text](https://github.com/Protontech-1803/devops/blob/master/terrasible/HUE-content-in-HDFS.png)
      
  
 
