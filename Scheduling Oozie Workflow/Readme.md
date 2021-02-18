@@ -52,7 +52,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
        <end name="end"/>
        </workflow-app>
  
-
+       '''
 
 3.	Create job.properties file using vi editor in HDFS (cloudera) as shown below.
    
