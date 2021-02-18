@@ -125,9 +125,10 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
     
  
 13.	Open the HUE UI File Browser and check the target directory existence as shown below.
-Target directory: /user/root /oozie_wflow.
-
-   ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/HUE-targetDirectory.png)
+    Target directory: /user/root /oozie_wflow.
+ 
+      ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/HUE-targetDirectory.png)
+   
  
 14.	On successful execution, verify the content of the file is successfully imported to HDFS.
     
