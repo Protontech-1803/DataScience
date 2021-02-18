@@ -111,7 +111,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
  
 10. Open HUE UI, Ooozie dashboard to verify the status of the Workflow.
     
-     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/HUE UI-OozieDashboard.png)
+     ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/HUE%20UI-OozieDashboard.png)
     
  
 11. In HUE UI, Ooozie dashboard to verify the status of Jobs in Coordinators panel.
