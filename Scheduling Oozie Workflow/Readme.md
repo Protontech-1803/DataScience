@@ -82,7 +82,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
  
 6.	Copy the below code and paste it in the Vi Editor and save the file.
 
-        <coordinator-app timezone="UTC" end="2021-02-17T12:48Z" start="2021-02-17T11:48Z" frequency="5 " name="sqoop-import" xmlns="uri:oozie:coordinator:0.2">
+       <coordinator-app timezone="UTC" end="2021-02-17T12:48Z" start="2021-02-17T11:48Z" frequency="5 " name="sqoop-import" xmlns="uri:oozie:coordinator:0.2">
        <controls>
        <execution>FIFO</execution>
        </controls>
@@ -125,7 +125,8 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
     
  
 13.	Open the HUE UI File Browser and check the target directory existence as shown below.
-    Target directory: /user/root /oozie_wflow.
+    
+        Target directory: /user/root /oozie_wflow.
  
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/Scheduling%20Oozie%20Workflow/Scheduling%20Oozie%20Workflow%20PNG/HUE-targetDirectory.png)
    
