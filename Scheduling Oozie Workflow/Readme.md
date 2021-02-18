@@ -13,7 +13,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
  
 2.	Copy the below code and paste it in the Vi Editor and save the file.
 
-
+        '''
        <workflow-app name="Sqoop_Import" xmlns="uri:oozie:workflow:0.4">
        <global>
        <job-tracker>${jobTracker}</job-tracker>
