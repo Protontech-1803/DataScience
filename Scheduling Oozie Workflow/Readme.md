@@ -14,6 +14,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
 2.	Copy the below code and paste it in the Vi Editor and save the file.
 
        '''
+       
        <workflow-app name="Sqoop_Import" xmlns="uri:oozie:workflow:0.4">
        <global>
        <job-tracker>${jobTracker}</job-tracker>
@@ -51,7 +52,6 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
        </action>
        <end name="end"/>
        </workflow-app>
- 
        '''
 
 3.	Create job.properties file using vi editor in HDFS (cloudera) as shown below.
