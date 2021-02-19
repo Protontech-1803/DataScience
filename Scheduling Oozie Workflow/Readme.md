@@ -14,7 +14,6 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
 2.	Copy the below code and paste it in the Vi Editor and save the file.
 
        ```
-       
        <workflow-app name="Sqoop_Import" xmlns="uri:oozie:workflow:0.4">
        <global>
        <job-tracker>${jobTracker}</job-tracker>
@@ -61,6 +60,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
  
 4.	Copy the below code and paste it in the Vi Editor and save the file.
 
+       ```
        nameNode=hdfs://quickstart.cloudera:8020
        jobTracker=quickstart.cloudera:8032
        queueName=default
@@ -75,6 +75,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
        oozie.coord.application.path=/user/root/sqoop_import/coordinator.xml
        #oozie.wf.application.path=/user/cloudera/workflows/sqoopworkflow.xml
        oozie.libpath=/user/oozie/share/lib/sqoop
+       ```
 
 
 5.	Create Coordinator file using vi editor in HDFS (cloudera) as shown below.
@@ -84,6 +85,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
  
 6.	Copy the below code and paste it in the Vi Editor and save the file.
 
+       ```
        <coordinator-app timezone="UTC" end="2021-02-17T12:48Z" start="2021-02-17T11:48Z" frequency="5 " name="sqoop-import" xmlns="uri:oozie:coordinator:0.2">
        <controls>
        <execution>FIFO</execution>
@@ -94,6 +96,7 @@ Scheduling the Oozie Workflow to execute the Sqoop import job from SQL RDBMS to 
        </workflow>
        </action>
        </coordinator-app>
+       ```
 
 
 7.	Execute the below shown command to run the Oozie workflow for Sqoop.
