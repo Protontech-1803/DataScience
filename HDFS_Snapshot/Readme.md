@@ -22,11 +22,11 @@ This POC illustrates how to take a backup and restore the files and directories 
                     
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/HDFS_Snapshot/Img4.jpg)
 
-      b.	Create a snapshot of the directory by executing Hadoop createSnapshot command.
+      b.	Create a snapshot of the directory by executing Hadoop **createSnapshot** command.
       
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/HDFS_Snapshot/Img5.jpg)
 
-      c.	Rename the snapshot by executing Hadoop renameSnapshot command.
+      c.	Rename the snapshot by executing Hadoop **renameSnapshot** command.
       
       ![Alt text](https://github.com/Protontech-1803/DataScience/blob/master/HDFS_Snapshot/Img6.jpg)
 
